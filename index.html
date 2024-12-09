@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы по программированию</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: #e8491d;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .button {
+            background-color: #35424a;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #e8491d;
+            transform: scale(1.05);
+        }
+
+        .button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Курсы по программированию</h1>
+        <nav>
+            <a href="#about">О курсах</a>
+            <a href="#courses">Наши курсы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Откройте для себя мир программирования!</h2>
+            <p>Присоединяйтесь к нашим курсам и станьте профессионалом в сфере IT.</p>
+            <a href="#courses" class="button">Посмотреть курсы</a>
+            <a href="#contact" class="button">Связаться с нами</a>
+        </div>
+    </section>
+
+    <div class="container" id="about">
+        <h2>О курсах</h2>
+        <p>Мы предлагаем обширную программу курсов, которые помогут вам освоить как основы программирования, так и более продвинутые темы. Наши преподаватели - опытные специалисты, которые готовы делиться своими знаниями и опытом.</p>
+    </div>
+
+    <div class="container" id="courses">
+        <h2>Наши курсы</h2>
+        <ul>
+            <li>
+                Введение в программирование
+                <a href="course-python.html" class="button">Посмотреть детали</a>
+            </li>
+            <li>
+                Основы Python
+                <a href="course-python.html" class="button">Посмотреть детали</a>
+            </li>
+            <li>
+                Веб-разработка с использованием HTML, CSS и JavaScript
+                <a href="course-web-development.html" class="button">Посмотреть детали</a>
+            </li>
+            <li>
+                Анализ данных с использованием Python
+                <a href="course-data-analysis.html" class="button">Посмотреть детали</a>
+            </li>
+        </ul>
+        <a href="#contact" class="button">Записаться на курс</a>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Контакты</h2>
+        <p>Если у вас есть вопросы, не стесняйтесь обращаться к нам!</p>
+        <p>Email: info@programmingcourses.com</p>
+        <p>Телефон: +7 (123) 456-78-90</p>
+        <a href="mailto:info@programmingcourses.com" class="button">Написать нам</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Курсы по программированию. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
